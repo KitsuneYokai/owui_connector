@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "owui-connector"
+version = "0.1.0"
+description = "An API connector for the OpenWebUI panel using scarletio."
+authors = ["KitsuneYokai <56147653+KitsuneYokai@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.3"
+scarletio = { git = "https://github.com/HuyaneMatsu/scarletio", rev = "main" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
