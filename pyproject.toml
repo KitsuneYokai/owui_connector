@@ -6,11 +6,8 @@ authors = ["KitsuneYokai <56147653+KitsuneYokai@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
-
-[tool.poetry.dev-dependencies]
-pytest = "^8.3.3"
-scarletio = { git = "https://github.com/HuyaneMatsu/scarletio", rev = "main" }
+python = "^3.10"
+scarletio = "^1.0.82"
 
 [build-system]
 requires = ["poetry-core"]

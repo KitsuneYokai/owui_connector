@@ -101,20 +101,16 @@ version = "1.0.82"
 description = "Asynchronous blackmagic & Witchcraft"
 optional = false
 python-versions = ">=3.6"
-files = []
-develop = false
+files = [
+    {file = "scarletio-1.0.82-py3-none-any.whl", hash = "sha256:a89cfba60b46de3b20493133bf50340f856d6a8e08d8a99dfab9ba69a27c5177"},
+    {file = "scarletio-1.0.82.tar.gz", hash = "sha256:25a46613ba59462c2d79c7f219789e31c8056d96b7e9efdafe7c1c3bf4c6428c"},
+]
 
 [package.dependencies]
 chardet = ">=2.0"
 
 [package.extras]
 cpythonspeedups = ["cchardet (>=2.0)"]
-
-[package.source]
-type = "git"
-url = "https://github.com/HuyaneMatsu/scarletio"
-reference = "main"
-resolved_reference = "74b978e790754714f003bf9685639c36520af2c5"
 
 [[package]]
 name = "tomli"
@@ -159,5 +155,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.10,<3.13"
-content-hash = "91cc56183de1f6151c52ff569bc75b9cd1155668b2cd6214a7442cede0b8f113"
+python-versions = "^3.10"
+content-hash = "2b50a6830008fe84baf036e4f4b6f4045be596d0fc8928e052eaa85afa922717"
