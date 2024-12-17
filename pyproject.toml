@@ -6,7 +6,7 @@ authors = ["KitsuneYokai <56147653+KitsuneYokai@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.6,<3.13"
 scarletio = "^1.0.82"
 
 [build-system]
